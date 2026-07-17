@@ -26,8 +26,8 @@ import {
   HardDrive,
   Lock,
 } from "lucide-react";
-import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
-import preciousPhoto from "@/imports/WhatsApp_Image_2026-06-16_at_14.23.30.jpeg";
+import { ImageWithFallback } from "./components/figma/ImageWithFallback";
+import preciousPhoto from "../imports/WhatsApp_Image_2026-06-16_at_14.23.30.jpeg";
 
 /* ─── Floating Particles ─────────────────────────────────────── */
 const PARTICLES = Array.from({ length: 28 }, (_, i) => ({
@@ -168,7 +168,7 @@ const CLIENTS = [
 ];
 
 const WHY_POINTS = [
-  { icon: Award, text: "Qualified in IT, Accounting (QuickBooks), and Graphic Design" },
+  { icon: Award, text: "Qualified in IT, Accounting (QuickBooks) and Graphic Design" },
   { icon: Zap, text: "Active Technician & Sales Representative at Josmer Computers" },
   { icon: Users, text: "Trusted by organizations across Mombasa — hospitality, education, healthcare" },
   { icon: ShoppingBag, text: "Full-service computer equipment and accessories supplier" },
